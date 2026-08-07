@@ -52,6 +52,18 @@ tags:
 > 5. Déterminer le nombre de places au 12ᵉ et au 19ᵉ rang.
 > 6. Déterminer le nombre de places au $n$ᵉ rang. En quoi la formule obtenue peut-elle répondre à la problématique ?
 
+> [!rituel] Rituel
+> 1. Calculer $12-19$.
+> 2. Calculer $-8-15$.
+> 3. Dans la liste 5, 9, 13, 17, quelle est la différence entre deux termes consécutifs ?
+> 4. Continuer la liste : 100, 94, 88, 82, … donner les deux termes suivants.
+
+> [!correction] Correction
+> 1. $12-19=-7$.
+> 2. $-8-15=-23$.
+> 3. La différence commune est $4$.
+> 4. $76$ puis $70$.
+
 ## Analyser
 
 > [!definition] Définition — Suite numérique
@@ -65,7 +77,7 @@ tags:
 > [!exercice] Exercice 1
 > Voici les cinq premiers termes de la suite nommée $u$.
 >
-> ![[suite2.png]]
+> ![[suite2.png|500]]
 >
 > 1. Donner la notation de la suite $u$
 > 2. Quelle est la valeur de $u_3$ ?
@@ -80,6 +92,15 @@ tags:
 > On a donc :
 >
 > ![[rec.png]]
+
+> [!rituel] Rituel
+> Déterminer les coordonnées du point d'intersection des droites suivantes :
+> 1. $D$ : $y=3x-5$ et $D'$ : $y=-2x+10$
+> 2. $D$ : $y=-x+8$ et $D'$ : $y=4x-2$
+
+> [!correction] Correction
+> 1. $3x-5=-2x+10 \Rightarrow 5x=15 \Rightarrow x=3$, donc $y=3\times3-5=4$. Point d'intersection : $(3;4)$.
+> 2. $-x+8=4x-2 \Rightarrow 10=5x \Rightarrow x=2$, donc $y=-2+8=6$. Point d'intersection : $(2;6)$.
 
 > [!exercice] Exercice 2
 > En reprenant le contexte de l'activité sur la salle 3000. On note $(u_n)$, la suite formée par le nombre de places à chaque rang.
@@ -99,9 +120,51 @@ tags:
 > 1. Déterminer $v_2$ et $v_3$
 > 2. Déterminer $v_{60}$
 
-## Applications
+> [!definition] Définition — Somme des termes d'une suite arithmétique
+> Pour une suite arithmétique $(u_n)$, on note $S_n$ la somme de ses $n$ premiers termes :
+> $$S_n = u_1+u_2+\cdots+u_n$$
+
+> [!propriete] Propriété
+> Pour une suite arithmétique $(u_n)$ de premier terme $u_1$, la somme de ses $n$ premiers termes est :
+> $$S_n = n \times \dfrac{u_1+u_n}{2}$$
+> (nombre de termes $\times$ la moyenne du premier et du dernier terme.)
+
+> [!exemple] Exemple
+> Soit la suite arithmétique de premier terme $u_1=3$ et de raison $r=4$. Calculons la somme $S_{10}$ de ses 10 premiers termes.
+>
+> On calcule d'abord $u_{10}$ :
+> $$u_{10} = 3+(10-1)\times4 = 39$$
+> Puis la somme :
+> $$S_{10} = 10\times\dfrac{3+39}{2} = 210$$
 
 > [!exercice] Exercice 4
+> On reprend la suite $(v_n)$ de l'Exercice 3 ($v_1=200$, $r=-7$).
+> 1. Calculer $v_{20}$.
+> 2. En déduire la somme $S_{20}$ des 20 premiers termes de cette suite.
+
+> [!rituel] Rituel
+> 1. Que fait l'instruction `i = i + 3` dans une boucle ?
+> 2. Quelle est la première valeur affichée par ce programme ?
+>
+> ```python
+> i = 5
+> while i < 20:
+>     print(i)
+>     i = i + 5
+> ```
+>
+> 3. Combien de fois la boucle s'exécute-t-elle ?
+> 4. Quelle est la dernière valeur affichée ?
+
+> [!correction] Correction
+> 1. Elle augmente `i` de 3 à chaque tour de boucle.
+> 2. $5$.
+> 3. 3 fois.
+> 4. $15$.
+
+## Applications
+
+> [!exercice] Exercice 5
 > Compléter les commentaires du code Python ci-dessous :
 >
 > ```python
@@ -170,13 +233,13 @@ tags:
 > print("limite atteinte", terme_courant, n)
 > ```
 
-> [!exercice] Exercice 5
+> [!exercice] Exercice 6
 > L'entreprise « Condial » spécialisée dans le conditionnement des produits alimentaires envisage de développer sa production. Au mois de décembre 2013, cette entreprise fabrique 45 000 unités pour le conditionnement de boissons. Elle prévoit une augmentation mensuelle de 5 000 unités les mois suivants. On souhaite savoir au bout de combien de mois la production initiale doublera.
 > 1. Calculer les productions des quatre premiers mois de l'année 2014.
 > 2. Montrer que ces quatre nombres forment une suite arithmétique. Préciser la raison.
 > 3. Déterminer pour quel mois de l'année 2014 la production du mois de décembre aura doublé.
 
-> [!exercice] Exercice 6
+> [!exercice] Exercice 7
 > Le gérant d'un magasin de vélo compare le chiffre d'affaires réalisé au cours du mois de juillet des trois années 2012, 2013 et 2014.
 >
 > ![[tabsuite.png]]
@@ -186,19 +249,31 @@ tags:
 >    1. Calculer le terme $C_4$ de cette suite. En déduire le montant du chiffre d'affaires attendu pour juillet 2015.
 >    2. Donner le rang « n » du terme $C_n$ tel que $C_n$ = 11 250. Indiquer l'année au cours de laquelle le chiffre d'affaires du mois de juillet aura atteint 11 250 €.
 
-> [!exercice] Exercice 7
+> [!exercice] Exercice 8
 > Un client d'un établissement bancaire a souscrit un contrat permettant le versement automatique de 200 €, chaque premier jour d'un mois d'une année, sur un livret d'épargne. Le premier janvier le client possède 1 500 € sur le livret et le versement automatique augmente ce capital de 200 € qui sera donc de 1 700 €. On désigne par $u_1$ ce capital. Les capitaux placés sur le livret après les versements automatiques de février et de mars sont notés $u_2$ et $u_3$.
 > 1. Calculer $u_2$ et $u_3$.
 > 2. Donner la nature de la suite dont les 3 premiers termes sont $u_1$, $u_2$ et $u_3$. Justifier la réponse et préciser la valeur de la raison.
 > 3. Donner la valeur du terme de la suite qui représente le capital placé, immédiatement après le versement du mois de septembre.
 
-> [!exercice] Exercice 8
+> [!rituel] Rituel
+> 1. Un capital de 500€ augmente de 4% par an. Quel est le coefficient multiplicateur associé ?
+> 2. Calculer le nouveau montant après cette augmentation.
+> 3. Une population de 2000 habitants diminue de 10% par an. Quel est le coefficient multiplicateur associé ?
+> 4. Calculer la population après cette diminution.
+
+> [!correction] Correction
+> 1. $1,04$.
+> 2. $500\times1,04=520$€.
+> 3. $0,90$.
+> 4. $2000\times0,90=1800$ habitants.
+
+> [!exercice] Exercice 9
 > On considère la suite numérique $u_1$ = 8 000 ; $u_2$ = 9 200 ; $u_3$ = 10 580.
 > 1. Préciser, en justifiant la réponse, s'il s'agit d'une suite arithmétique ou d'une suite géométrique.
 > 2. Indiquer la raison de cette suite.
 > 3. On considère la suite géométrique. Calculer $u_{10}$ et $u_{20}$.
 
-> [!exercice] Exercice 9
+> [!exercice] Exercice 10
 > Une société du secteur des nouvelles technologies prévoit une augmentation de son chiffre d'affaires de 15 % chaque année pendant 6 ans. On note $u_1, u_2, u_3, u_4, u_5, u_6$ la suite formée par les 6 chiffres d'affaires consécutifs.
 > 1. Donner le coefficient multiplicateur qui permet de calculer $u_2$ à partir de $u_1$ ; $u_3$ à partir de $u_2$ ; $u_4$ à partir de $u_3$ ; $u_5$ à partir de $u_4$ ; $u_6$ à partir de $u_5$.
 > 2. En déduire la nature de la suite (arithmétique ou géométrique) de la suite formée par les 6 chiffres d'affaires consécutifs et donner la valeur de la raison.
@@ -206,7 +281,7 @@ tags:
 > 4. Calculer le terme $u_6$ de la suite. Donner l'année où le chiffre d'affaires est égal à la valeur du terme $u_6$.
 > 5. Confirmer si un doublement du chiffre d'affaires sera réalisé dès 2018 comme l'affirme le PDG de la société. Justifier la réponse.
 
-> [!exercice] Exercice 10
+> [!exercice] Exercice 11
 > La population d'un village de montagne diminue tous les ans de 20 %.
 > 1. Sachant qu'en 1996 elle était de 1 875 habitants, compléter le tableau suivant :
 >
@@ -215,3 +290,9 @@ tags:
 > 2. Montrer que les nombres d'habitants sont des termes d'une suite dont on déterminera la nature et la raison.
 > 3. Déterminer la population de ce village en 2010.
 > 4. Donner l'année d'extinction de ce village si on suppose la diminution de la population constante.
+
+> [!exercice] Exercice 12
+> On reprend le contexte de l'activité sur la salle 3000 : 46 places au premier rang, et 6 places de plus à chaque rang suivant.
+> 1. Calculer le nombre de places au 30ᵉ rang.
+> 2. En déduire la capacité totale de la salle si elle compte 30 rangs.
+> 3. La direction hésite à porter la salle à 35 rangs. Calculer la nouvelle capacité totale et indiquer le nombre de places supplémentaires gagnées par rapport à 30 rangs.

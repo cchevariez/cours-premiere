@@ -189,6 +189,19 @@ Nous utilisons la notion d'équation de droite. Pour la suite du chapitre, nous 
 > 4. Déterminer le point de $D$ dont l'abscisse est égale à 12.
 > 5. Déterminer le point de $D$ dont l'ordonnée est égale à -5.
 
+> [!rituel] Rituel
+> Augmentations et réductions.
+> 1. Un article coûte 50€. Il augmente de 20%. Quel est son nouveau prix ?
+> 2. Un article coûte 90€. Il subit une réduction de 10%. Quel est son nouveau prix ?
+> 3. Quel est le coefficient multiplicateur associé à une augmentation de 6% ?
+> 4. Quel est le coefficient multiplicateur associé à une réduction de 45% ?
+
+> [!correction] Correction
+> 1. $PF = 50\times1,20=60$€.
+> 2. $PF = 90\times0,90=81$€.
+> 3. $1,06$.
+> 4. $0,55$.
+
 ## Intersection de deux droites
 
 On peut calculer les coordonnées du point d'intersection de deux droites en résolvant un système.
@@ -262,14 +275,48 @@ On peut calculer les coordonnées du point d'intersection de deux droites en ré
 > 2. Par le calcul, déterminer une estimation du PIB américain en 2050. Vous expliquerez les étapes de votre démarche.
 > 3. Par le calcul, déterminer une estimation de l'année où le PIB américain aura dépassé 25 billions de dollars. Vous expliquerez les étapes de votre démarche.
 
-**Bilan :**
+> [!rituel] Rituel
+> Calculer le pourcentage que représente la quantité partielle par rapport à la quantité totale.
+> 1. Dans une classe de 25 élèves, 5 sont absents. Quel pourcentage d'élèves est absent ?
+> 2. Sur 40 bonbons, 8 sont au chocolat. Quel pourcentage de bonbons est au chocolat ?
+> 3. 60 élèves ont validé un contrôle sur 80. Quel pourcentage cela représente-t-il ?
+> 4. Un panier contient 12 pommes sur 50 fruits. Quel pourcentage de pommes contient le panier ?
+
+> [!correction] Correction
+> 1. $\dfrac{5}{25}\times100=20\%$.
+> 2. $\dfrac{8}{40}\times100=20\%$.
+> 3. $\dfrac{60}{80}\times100=75\%$.
+> 4. $\dfrac{12}{50}\times100=24\%$.
 
 ## Analyser - Valider
 
 Les prévisions de météo France sont de plus en plus précises. En effet, plus les années passent, plus la base de données météorologique s'agrandit. Voici la dernière activité sur le PIB chinois et américain.
 
 > [!travail] Travail
-> Vous disposez à présent (sur LMS) des données sur les PIB américain et chinois depuis 1980. En utilisant le tableau des compétences, donner une estimation de l'année où le PIB chinois dépassera le PIB américain. Dans la partie « valider », vous critiquerez la pertinence du résultat obtenu. Ce travail est à rendre, au format PDF, sur lms.zone.
+> Vous disposez ci-dessous des données sur les PIB américain et chinois depuis 1980 (en billions de dollars, source : Banque Mondiale). En utilisant le tableau des compétences, donner une estimation de l'année où le PIB chinois dépassera le PIB américain. Dans la partie « valider », vous critiquerez la pertinence du résultat obtenu. Ce travail est à rendre, au format PDF, sur lms.zone.
+>
+> | Année | Chine | États-Unis | Année | Chine | États-Unis |
+> |---|---|---|---|---|---|
+> | 1980 | 0.2 | 2.9 | 2000 | 1.2 | 10.3 |
+> | 1981 | 0.2 | 3.2 | 2001 | 1.3 | 10.6 |
+> | 1982 | 0.2 | 3.3 | 2002 | 1.5 | 10.9 |
+> | 1983 | 0.2 | 3.6 | 2003 | 1.7 | 11.5 |
+> | 1984 | 0.3 | 4.0 | 2004 | 2.0 | 12.2 |
+> | 1985 | 0.3 | 4.3 | 2005 | 2.3 | 13.0 |
+> | 1986 | 0.3 | 4.6 | 2006 | 2.8 | 13.8 |
+> | 1987 | 0.3 | 4.9 | 2007 | 3.6 | 14.5 |
+> | 1988 | 0.3 | 5.2 | 2008 | 4.6 | 14.7 |
+> | 1989 | 0.3 | 5.6 | 2009 | 5.1 | 14.4 |
+> | 1990 | 0.4 | 6.0 | 2010 | 6.1 | 15.0 |
+> | 1991 | 0.4 | 6.2 | 2011 | 7.6 | 15.5 |
+> | 1992 | 0.4 | 6.5 | 2012 | 8.5 | 16.2 |
+> | 1993 | 0.4 | 6.9 | 2013 | 9.6 | 16.8 |
+> | 1994 | 0.6 | 7.3 | 2014 | 10.5 | 17.5 |
+> | 1995 | 0.7 | 7.6 | 2015 | 11.1 | 18.2 |
+> | 1996 | 0.9 | 8.1 | 2016 | 11.2 | 18.7 |
+> | 1997 | 1.0 | 8.6 | 2017 | 12.3 | 19.5 |
+> | 1998 | 1.0 | 9.1 | 2018 | 13.9 | 20.6 |
+> | 1999 | 1.1 | 9.6 | 2019 | 14.3 | 21.4 |
 >
 >> [!aide] Aide
 >> Vous pouvez discuter la pertinence de votre droite de régression en mettant en relation l'allure du nuage de points et l'allure de la courbe.
@@ -280,9 +327,9 @@ Les prévisions de météo France sont de plus en plus précises. En effet, plus
 > [!exercice] Exercice 5
 > Voici une série de trois nuages de points. Si on fait une régression linéaire sur chacun d'eux, quelles seront à votre avis les valeurs de $R^2$ (proche de 0, proche de 1 ou entre 0 et 1) ?
 >
-> Nuage 1 : ![[nuage1.png]]
-> Nuage 2 : ![[nuage2.png]]
-> Nuage 3 : ![[nuage3.png]]
+> Nuage 1 : ![[nuage1.png|300]]
+> Nuage 2 : ![[nuage2.png|300]]
+> Nuage 3 : ![[nuage3.png|300]]
 
 > [!definition] Définition — Corrélation
 > En mathématiques, on dit que deux séries sont corrélées si leur coefficient de détermination est proche de 1.
@@ -291,10 +338,62 @@ Les prévisions de météo France sont de plus en plus précises. En effet, plus
 > Un tutoriel est disponible sur lms.zone pour vous aider à déterminer la valeur de $R^2$.
 > - [Vidéo — déterminer $R^2$](https://youtu.be/b5KSM5Xr-2c)
 
+> [!rituel] Rituel
+> Mettre le problème en équation puis la résoudre pour retrouver le prix initial.
+> 1. Après une augmentation de 8%, un article coûte 97,20€. Quel était son prix initial ?
+> 2. Après une réduction de 15%, un article coûte 68€. Quel était son prix initial ?
+> 3. Après une augmentation de 3%, un salaire est de 1751€. Quel était le salaire initial ?
+> 4. Après une réduction de 20%, un article coûte 64€. Quel était son prix initial ?
+
+> [!correction] Correction
+> 1. $1,08x=97,20 \Rightarrow x = \dfrac{97,20}{1,08}=90$€.
+> 2. $0,85x=68 \Rightarrow x = \dfrac{68}{0,85}=80$€.
+> 3. $1,03x=1751 \Rightarrow x = \dfrac{1751}{1,03}=1700$€.
+> 4. $0,8x=64 \Rightarrow x = \dfrac{64}{0,8}=80$€.
+
 ## Applications
 
 > [!travail] Travail
-> Vous disposez sur LMS des données (source INSEE) concernant le taux de mortalité en fonction de l'âge. En vous appuyant sur le tableau des compétences, démontrer que l'âge et le taux de mortalité sont corrélés. Peut-on envisager un lien de causalité ? Dans la partie « s'approprier » vous expliquerez ce qu'est un taux de mortalité ainsi qu'une relation de causalité.
+> Vous disposez ci-dessous des données (source INSEE) concernant le taux de mortalité en fonction de l'âge. En vous appuyant sur le tableau des compétences, démontrer que l'âge et le taux de mortalité sont corrélés. Peut-on envisager un lien de causalité ? Dans la partie « s'approprier » vous expliquerez ce qu'est un taux de mortalité ainsi qu'une relation de causalité.
+>
+> | Tranche d'âge | Taux de mortalité |
+> |---|---|
+> | 1 à 4 ans | 0.2 |
+> | 5 à 9 ans | 0.1 |
+> | 10 à 14 ans | 0.1 |
+> | 15 à 19 ans | 0.2 |
+> | 20 à 24 ans | 0.4 |
+> | 25 à 29 ans | 0.5 |
+> | 30 à 34 ans | 0.6 |
+> | 35 à 39 ans | 0.8 |
+> | 40 à 44 ans | 1.3 |
+> | 45 à 49 ans | 2.0 |
+> | 50 à 54 ans | 3.3 |
+> | 55 à 59 ans | 5.1 |
+> | 60 à 64 ans | 7.7 |
+> | 65 à 69 ans | 10.7 |
+> | 70 à 79 ans | 18.3 |
+> | 80 à 89 ans | 20.0 |
+> | 90 à 110 ans | 22.5 |
 
 > [!travail] Travail
-> Vous disposez sur lms.zone des données concernant le nombre de prix Nobel pour 10 millions d'habitants en fonction de la consommation de chocolat (kg/habitant/an) de plusieurs pays. En vous appuyant sur le tableau des compétences, discuter de la corrélation et de la causalité entre ces deux séries.
+> Vous disposez ci-dessous des données concernant le nombre de prix Nobel pour 10 millions d'habitants en fonction de la consommation de chocolat (kg/habitant/an) de plusieurs pays. En vous appuyant sur le tableau des compétences, discuter de la corrélation et de la causalité entre ces deux séries.
+>
+> | Pays | Conso de chocolat (kg/habitant/an) | Prix Nobel pour 10 millions |
+> |---|---|---|
+> | Suisse | 8.8 | 32.771 |
+> | Autriche | 8.1 | 25.138 |
+> | Allemagne | 7.9 | 13.245 |
+> | Irlande | 7.9 | 14.572 |
+> | Grande Bretagne | 7.6 | 19.429 |
+> | Finlande | 5.4 | 9.021 |
+> | Pays-Bas | 5.1 | 11.707 |
+> | Nouvelle-Zélande | 5.0 | 6.316 |
+> | Australie | 4.9 | 4.844 |
+> | République Tchèque | 4.9 | 4.706 |
+> | États-Unis | 4.4 | 11.721 |
+> | France | 4.3 | 10.664 |
+> | Brésil | 1.2 | 0.047 |
+> | Japon | 1.2 | 1.887 |
+> | Afrique du Sud | 0.9 | 0.697 |
+> | Chine | 0.1 | 0.035 |

@@ -70,7 +70,6 @@ La boucle `While` suit le schéma suivant :
 > print("On est sorti de la boucle",i)
 > ```
 
-**Bilan :**
 
 ## Boucle While avec compteurs
 

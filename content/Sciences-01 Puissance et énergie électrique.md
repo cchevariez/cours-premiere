@@ -9,7 +9,7 @@ tags:
 > [!rituel] Rituel
 > Identifier les différentes grandeurs de cette plaque signalétique et donner de leur unité.
 >
-> ![[signaletique.png]]
+> ![[signaletique.png|200]]
 
 > [!correction] Correction
 > - $220\,\text{V}$ : Tension en Volt.
@@ -53,7 +53,7 @@ tags:
 
 Pour mesurer la tension et l'intensité, on utilise un multimètre. Comme son nom l'indique un multimètre possède de multiples fonctions.
 
-![[multi.png]]
+![[multi.png|200]]
 
 Pour mesurer une tension, on se branche en dérivation du dipôle dont on veut mesurer la tension. Voici une image d'illustration :
 
@@ -61,7 +61,7 @@ Pour mesurer une tension, on se branche en dérivation du dipôle dont on veut m
 
 Voici le schéma électrique correspondant à cette situation :
 
-![[tension-circuit.png]]
+![[tension-circuit.png|200]]
 
 Pour mesurer une intensité, on branche le multimètre en série. Voici une image d'illustration :
 
@@ -69,7 +69,7 @@ Pour mesurer une intensité, on branche le multimètre en série. Voici une imag
 
 Voici le schéma électrique correspondant à cette situation :
 
-![[intensite-circuit.png]]
+![[intensite-circuit.png|300]]
 
 > [!travail] Travail
 > On souhaite mesurer la tension aux bornes d'une résistance.
@@ -81,7 +81,30 @@ Voici le schéma électrique correspondant à cette situation :
 > 2. À l'aide du matériel fourni, réaliser le montage ci-dessous. **Appeler votre professeur avant de mettre le circuit sous tension**.
 > 3. On appelle puissance, notée $P$, le produit de la tension $U$ (en Volt) et de l'intensité $I$ (en ampères). $$P = U \times I$$ L'unité de la puissance est le Watt ($W$). Déterminer la puissance de la résistance.
 
-> [!exercice] Exercice 3
+> [!exercice] Exercice 3 — Application directe de $P = U \times I$
+> Pour chacun des circuits ci-dessous, calculer la grandeur manquante à l'aide de la formule $P = U \times I$.
+>
+> ```
+>  a)                          b)
+>   ┌─────[A]─────┐             ┌─────[A]─────┐
+>   │    2 A      │             │    5 A      │
+>  (—) 12 V        R           (—) U = ?      Moteur
+>   │              │             │            P = 60 W
+>   └──────────────┘             └─────────────┘
+> ```
+>
+> 1. Circuit a) : $U = 12\,\text{V}$, $I = 2\,\text{A}$. Calculer $P$.
+> 2. Circuit b) : $P = 60\,\text{W}$, $I = 5\,\text{A}$. Calculer $U$.
+> 3. Une lampe de $100\,\text{W}$ est branchée sous une tension de $230\,\text{V}$. Calculer l'intensité $I$ qui la traverse.
+> 4. Un radiateur électrique est parcouru par un courant de $8\,\text{A}$ sous une tension de $230\,\text{V}$. Calculer sa puissance.
+
+> [!correction] Correction
+> 1. $P = 12\times2 = 24\,\text{W}$.
+> 2. $U = \dfrac{P}{I} = \dfrac{60}{5} = 12\,\text{V}$.
+> 3. $I = \dfrac{P}{U} = \dfrac{100}{230} \approx 0,43\,\text{A}$.
+> 4. $P = 230\times8 = 1840\,\text{W}$.
+
+> [!exercice] Exercice 4
 > Voici l'installation électrique d'un salon de coiffure. Le Consuel (COmité National pour la Sécurité des Usagers de l'ELectricité) doit passer afin de vérifier l'installation. Vous disposez du tableau de la norme NFC, que toutes les installations doivent respecter, ainsi qu'un schéma du tableau divisionnaire du salon. À l'aide de ces documents, indiquer les changements nécessaires à effectuer afin que le Consuel valide l'installation. Chaque modification à effectuer doit être soigneusement justifiée.
 >
 > ![[norme.png]]
@@ -96,10 +119,23 @@ Voici le schéma électrique correspondant à cette situation :
 > L'unité SI de l'énergie électrique est le joule (J), mais dans le contexte domestique, on utilise plus couramment le kilowattheure (kWh). Un joule correspond à une consommation de un Watt pendant une seconde. Un kilowattheure correspond à l'énergie consommée par un appareil de 1000 watts fonctionnant pendant une heure. On a donc la formule :
 > $$E = P \times t$$
 
+> [!exercice] Exercice 5 — Application directe de $E = P \times t$
+> À l'aide de la formule $E = P \times t$, répondre aux questions suivantes (attention aux unités : pour obtenir $E$ en Joule, $t$ doit être en secondes).
+> 1. Un four de $2000\,\text{W}$ fonctionne pendant $15\,\text{min}$. Calculer l'énergie consommée en Joule.
+> 2. Une ampoule de $9\,\text{W}$ reste allumée pendant $4\,\text{h}$. Calculer l'énergie consommée en Wh puis en kWh.
+> 3. Un chargeur de téléphone consomme $18\,\text{Wh}$ pour une charge complète de $2\,\text{h}$. Calculer sa puissance.
+> 4. Un radiateur de $1500\,\text{W}$ doit fournir une énergie de $3\,\text{kWh}$. Pendant combien de temps doit-il fonctionner ?
+
+> [!correction] Correction
+> 1. $t=15\,\text{min}=900\,\text{s}$, donc $E=2000\times900=1\,800\,000\,\text{J}=1,8\,\text{MJ}$.
+> 2. $E = 9\times4=36\,\text{Wh}=0,036\,\text{kWh}$.
+> 3. $P=\dfrac{E}{t}=\dfrac{18}{2}=9\,\text{W}$.
+> 4. $t=\dfrac{E}{P}=\dfrac{3000}{1500}=2\,\text{h}$.
+
 > [!travail] Travail
 > Voici les informations concernant un vélo électrique :
 >
-> ![[velo5.jpg]]
+> ![[velo5.png|400]]
 >
 > - Batterie $36V/760Wh$
 > - Puissance du moteur : $250W$
@@ -114,5 +150,58 @@ Voici le schéma électrique correspondant à cette situation :
 >    - 0.1321 € en heures creuses
 >
 >    Déterminer le coût de cette recharge en heures pleines et en heures creuses.
+
+## Problèmes de synthèse
+
+> [!exercice] Problème de synthèse 1 — Installation électrique d'un atelier de menuiserie
+> Un atelier de menuiserie est alimenté sous une tension de $230\,\text{V}$, protégé par un disjoncteur de calibre $16\,\text{A}$. Quatre appareils peuvent fonctionner simultanément :
+>
+> ```
+>                         Disjoncteur 16 A
+>                                │
+>       ┌─────────────┬─────────┴─────────┬─────────────┐
+>       │             │                   │             │
+>    [Scie]      [Perceuse]         [Aspirateur]   [Éclairage]
+>   I = 6 A       P = 690 W           I = 4 A        P = 460 W
+>       │             │                   │             │
+>      230 V         230 V               230 V         230 V
+> ```
+>
+> 1. Calculer la puissance de la scie circulaire et de l'aspirateur d'atelier.
+> 2. Calculer l'intensité appelée par la perceuse à colonne et par l'éclairage.
+> 3. En déduire la puissance totale, puis l'intensité totale appelée lorsque les quatre appareils fonctionnent en même temps.
+> 4. Le disjoncteur de calibre 16 A va-t-il déclencher ? Justifier.
+> 5. Un menuisier branche en plus un chauffage d'appoint de $460\,\text{W}$. Le disjoncteur déclenche-t-il maintenant ? Justifier par le calcul.
+> 6. L'atelier fonctionne 6h par jour, 5 jours par semaine (sans le chauffage d'appoint). Calculer l'énergie consommée en une semaine, en kWh.
+> 7. Sachant que le prix du kWh est de $0,1711\,€$, calculer le coût hebdomadaire de fonctionnement de l'atelier.
+
+> [!correction] Correction
+> 1. Scie : $P=230\times6=1380\,\text{W}$. Aspirateur : $P=230\times4=920\,\text{W}$.
+> 2. Perceuse : $I=\dfrac{690}{230}=3\,\text{A}$. Éclairage : $I=\dfrac{460}{230}=2\,\text{A}$.
+> 3. $P_{totale}=1380+690+920+460=3450\,\text{W}$. $I_{totale}=6+3+4+2=15\,\text{A}$.
+> 4. $15\,\text{A} < 16\,\text{A}$ : le disjoncteur ne déclenche pas (marge faible, seulement $1\,\text{A}$).
+> 5. Chauffage : $I=\dfrac{460}{230}=2\,\text{A}$. Nouvelle intensité totale : $15+2=17\,\text{A} > 16\,\text{A}$ : le disjoncteur déclenche.
+> 6. $P_{totale}=3,45\,\text{kW}$. Temps hebdomadaire : $6\times5=30\,\text{h}$. $E=3,45\times30=103,5\,\text{kWh}$.
+> 7. Coût $=103,5\times0,1711\approx17,71\,€$.
+
+> [!exercice] Problème de synthèse 2 — Ampoule incandescente ou LED ?
+> On souhaite remplacer une ampoule incandescente par une ampoule LED équivalente. L'ampoule est utilisée en moyenne $4\,\text{h}$ par jour, $365$ jours par an. Le prix du kWh est de $0,1711\,€$.
+>
+> | | Ampoule incandescente | Ampoule LED |
+> |---|---|---|
+> | Puissance | 60 W | 9 W |
+> | Prix d'achat | 1 € | 6 € |
+> | Durée de vie | 1000 h | 15 000 h |
+>
+> 1. Calculer l'énergie consommée par chaque ampoule sur $15\,000\,\text{h}$ d'utilisation, en kWh.
+> 2. En déduire le coût de l'électricité consommée par chaque ampoule sur ces $15\,000\,\text{h}$.
+> 3. Combien d'ampoules incandescentes faut-il acheter pour couvrir $15\,000\,\text{h}$ d'utilisation (durée de vie d'une seule LED) ? En déduire le coût d'achat total des ampoules incandescentes.
+> 4. En tenant compte du prix d'achat et du coût de l'électricité, comparer le coût total sur $15\,000\,\text{h}$ des deux solutions. Laquelle est la plus économique ? Justifier.
+
+> [!correction] Correction
+> 1. Incandescente : $E=60\times15\,000=900\,000\,\text{Wh}=900\,\text{kWh}$. LED : $E=9\times15\,000=135\,000\,\text{Wh}=135\,\text{kWh}$.
+> 2. Incandescente : $900\times0,1711\approx153,99\,€$. LED : $135\times0,1711\approx23,10\,€$.
+> 3. $\dfrac{15\,000}{1000}=15$ ampoules. Coût d'achat : $15\times1=15\,€$.
+> 4. Incandescente : $153,99+15=168,99\,€$. LED : $23,10+6=29,10\,€$. La LED est nettement plus économique (environ $140\,€$ d'économie sur la durée).
 
 **Tester vos connaissances :** [Quiz en ligne (Quiziniere)](https://www.quiziniere.com/diffusions/6K5PEM)
