@@ -176,7 +176,7 @@ Voici les règles de calcul de la fonction dérivée :
 >
 > Si pour une valeur $x_0$, $f'(x_0) = 0$ avec changement de signe, alors la fonction $f$ passe par un extremum $x_0$.
 
-![[tabvar.pdf]]
+![[tabvar.png]]
 
 > [!rituel] Rituel
 > 1. Résoudre $6(x+4) = 12$

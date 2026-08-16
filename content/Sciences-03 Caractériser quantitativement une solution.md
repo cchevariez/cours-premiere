@@ -8,13 +8,13 @@ tags:
 
 ## Classification périodique des éléments
 
-![[periodique.pdf]]
+![[periodique.png]]
 
 ## Mole et masse molaire
 
 **Problématique :** Peut-on définir de manière précise la quantité de matière présente dans 10 grammes d'acide citrique monohydraté ?
 
-![[docmol.pdf]]
+![[docmol.png]]
 
 1. Dans l'énoncé de cette activité, repérer les mots que vous ne connaissez pas et rechercher leur définition.
 2. Relever dans la classification périodique la masse molaire du carbone, de l'hydrogène et de l'oxygène.

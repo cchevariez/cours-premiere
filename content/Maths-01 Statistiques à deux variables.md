@@ -29,33 +29,48 @@ Les États-Unis sont encore de loin la première puissance économique mondiale.
 
 Pour répondre à cette question vous disposez des données suivantes (source : Banque Mondiale). Les PIB sont données en billions (millier de milliards) de dollars.
 
-| Année | Chine | États-Unis |
-|---|---|---|
-| 2001 | 1.3 | 10.6 |
-| 2002 | 1.5 | 10.9 |
-| 2003 | 1.7 | 11.5 |
-| 2004 | 2.0 | 12.2 |
-| 2005 | 2.3 | 13.0 |
-| 2006 | 2.8 | 13.8 |
-| 2007 | 3.6 | 14.5 |
-| 2008 | 4.6 | 14.7 |
-| 2009 | 5.1 | 14.4 |
-| 2010 | 6.1 | 15.0 |
-| 2011 | 7.6 | 15.5 |
-| 2012 | 8.5 | 16.2 |
-| 2013 | 9.6 | 16.8 |
-| 2014 | 10.5 | 17.5 |
-| 2015 | 11.1 | 18.2 |
-| 2016 | 11.2 | 18.7 |
-| 2017 | 12.3 | 19.5 |
-| 2018 | 13.9 | 20.6 |
-| 2019 | 14.3 | 21.4 |
-| 2020 | 15.0 | 21.3 |
-| 2021 | 18.2 | 23.7 |
-| 2022 | 18.3 | 26.0 |
-| 2023 | 18.4 | 27.7 |
+<div style="display:flex; gap:2em;">
 
-*Évolution comparée du PIB Chine / États-Unis (2001–2023).*
+<table>
+<thead><tr><th>Année</th><th>Chine</th><th>États-Unis</th></tr></thead>
+<tbody>
+<tr><td>2001</td><td>1.4</td><td>10.6</td></tr>
+<tr><td>2002</td><td>1.5</td><td>10.9</td></tr>
+<tr><td>2003</td><td>1.7</td><td>11.5</td></tr>
+<tr><td>2004</td><td>2.0</td><td>12.2</td></tr>
+<tr><td>2005</td><td>2.3</td><td>13.0</td></tr>
+<tr><td>2006</td><td>2.8</td><td>13.8</td></tr>
+<tr><td>2007</td><td>3.6</td><td>14.5</td></tr>
+<tr><td>2008</td><td>4.7</td><td>14.8</td></tr>
+<tr><td>2009</td><td>5.2</td><td>14.5</td></tr>
+<tr><td>2010</td><td>6.2</td><td>15.0</td></tr>
+<tr><td>2011</td><td>7.7</td><td>15.6</td></tr>
+<tr><td>2012</td><td>8.7</td><td>16.3</td></tr>
+<tr><td>2013</td><td>9.7</td><td>16.9</td></tr>
+</tbody>
+</table>
+
+<table>
+<thead><tr><th>Année</th><th>Chine</th><th>États-Unis</th></tr></thead>
+<tbody>
+<tr><td>2014</td><td>10.7</td><td>17.6</td></tr>
+<tr><td>2015</td><td>11.3</td><td>18.3</td></tr>
+<tr><td>2016</td><td>11.5</td><td>18.8</td></tr>
+<tr><td>2017</td><td>12.5</td><td>19.6</td></tr>
+<tr><td>2018</td><td>14.1</td><td>20.7</td></tr>
+<tr><td>2019</td><td>14.6</td><td>21.5</td></tr>
+<tr><td>2020</td><td>15.0</td><td>21.4</td></tr>
+<tr><td>2021</td><td>18.2</td><td>23.7</td></tr>
+<tr><td>2022</td><td>18.3</td><td>26.1</td></tr>
+<tr><td>2023</td><td>18.3</td><td>27.8</td></tr>
+<tr><td>2024</td><td>18.7</td><td>29.3</td></tr>
+<tr><td>2025</td><td>19.5</td><td>30.8</td></tr>
+</tbody>
+</table>
+
+</div>
+
+*Évolution comparée du PIB Chine / États-Unis (2001–2025, source : Banque Mondiale).*
 
 > [!travail] Travail
 > 1. Dans le repère ci-dessous, l'évolution du PIB américain et chinois sous la forme d'un nuage de points.
@@ -113,12 +128,12 @@ Pour répondre à cette question vous disposez des données suivantes (source : 
 > [!definition] Définition — Nuage de points
 > Dans un repère, l'ensemble des points de coordonnées $(x_i;y_i)$ forment le nuage de points représentant cette série statistique à deux variables.
 
-![[pubca.png]]
+![[pubca.png|500]]
 
 > [!definition] Définition — Ajustement affine ou régression linéaire par la méthode des moindres carrés
 > Effectuer un ajustement affine d'un nuage de points consiste à déterminer une fonction affine $y=ax+b$ dont la droite représentative $d$ passe « au plus près » de tous les points.
 
-![[pubcareg.png]]
+![[pubcareg.png|500]]
 
 L'équation de la droite est $y=5,57x-8,76$
 
@@ -174,7 +189,7 @@ Nous utilisons la notion d'équation de droite. Pour la suite du chapitre, nous 
 > [!exemple] Exemple
 > Soit $D$ la droite d'équation $y=0,5x+2$.
 >
-> ![[droite.png]]
+> ![[droite.png|600]]
 >
 > Les points $A$ et $B$ appartiennent à la droite, en effet leurs coordonnées vérifient l'équation de la droite.
 > - Pour $A(1;2,5)$ si on remplace $x$ par 1 (abscisse de $A$) dans l'équation on obtient $y=0,5 \times 1+2=2,5$ ce qui correspond à l'ordonnée de $A$.
@@ -293,7 +308,7 @@ On peut calculer les coordonnées du point d'intersection de deux droites en ré
 Les prévisions de météo France sont de plus en plus précises. En effet, plus les années passent, plus la base de données météorologique s'agrandit. Voici la dernière activité sur le PIB chinois et américain.
 
 > [!travail] Travail
-> Vous disposez ci-dessous des données sur les PIB américain et chinois depuis 1980 (en billions de dollars, source : Banque Mondiale). En utilisant le tableau des compétences, donner une estimation de l'année où le PIB chinois dépassera le PIB américain. Dans la partie « valider », vous critiquerez la pertinence du résultat obtenu. Ce travail est à rendre, au format PDF, sur lms.zone.
+> Vous disposez ci-dessous des données sur les PIB américain et chinois depuis 1980 (en billions de dollars, source : Banque Mondiale). En utilisant le tableau des compétences, donner une estimation de l'année où le PIB chinois dépassera le PIB américain. Dans la partie « valider », vous critiquerez la pertinence du résultat obtenu. Ce travail est à rendre, au format PDF.
 >
 > | Année | Chine | États-Unis | Année | Chine | États-Unis |
 > |---|---|---|---|---|---|

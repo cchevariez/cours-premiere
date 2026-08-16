@@ -22,7 +22,7 @@ tags:
 >
 > Placer les points sur le repère ci-dessous puis tracer la courbe de la fonction carré.
 >
-> ![[repcarre.pdf]]
+> ![[repcarre.png]]
 
 On peut donc en déduire le tableau de variation suivant :
 
@@ -44,7 +44,7 @@ On peut donc en déduire le tableau de variation suivant :
 >
 > Placer les points sur le repère ci-dessous puis tracer la courbe de la fonction cube.
 >
-> ![[repcube.pdf]]
+> ![[repcube.png]]
 
 On peut donc en déduire le tableau de variation suivant :
 
@@ -66,7 +66,7 @@ On peut donc en déduire le tableau de variation suivant :
 >
 > Placer les points sur le repère ci-dessous puis tracer la courbe de la fonction inverse.
 >
-> ![[repcube.pdf]]
+> ![[repcube.png]]
 
 On peut donc en déduire le tableau de variation suivant :
 
@@ -88,7 +88,7 @@ On peut donc en déduire le tableau de variation suivant :
 >
 > Placer les points sur le repère ci-dessous puis tracer la courbe de la fonction racine carrée.
 >
-> ![[repracine.pdf]]
+> ![[repracine.png]]
 
 On peut donc en déduire le tableau de variation suivant :
 
@@ -139,14 +139,14 @@ Les solutions de l'inéquation $f(x) \geq 0$ sont les valeurs des abscisses des 
 > [!exercice] Exercice 7
 > À l'aide de la courbe représentative de la fonction $f$ résoudre graphiquement $f(x) \geq 0$.
 >
-> ![[courbef.pdf]]
+> ![[courbef.png]]
 
 Les solutions de l'inéquation $f(x) \geq g(x)$ sont les valeurs des abscisses des points de la courbe représentative de $f$ se situant au-dessus ou sur la courbe représentative de $g$.
 
 > [!exercice] Exercice 8
 > À l'aide des courbes représentatives des fonctions $f$ et $g$ résoudre graphiquement $f(x) \geq g(x)$.
 >
-> ![[courbefg.pdf]]
+> ![[courbefg.png]]
 
 > [!exercice] Exercice 9
 > Pour chacune des fonctions donner :

@@ -34,8 +34,8 @@ tags:
 > [!activite] Activité
 > L'architecture de la salle 3000 à Lyon est inspirée des amphithéâtres gallo-romains.
 >
-> ![[salle3000.jpg]]
-> ![[3000.jpg]]
+> ![[salle3000.jpg|400]]
+> ![[3000.jpg|400]]
 >
 > La salle 3000 comporte 46 places au premier rang et 52 places au deuxième rang. Chaque rang suivant comporte 6 places de plus que le rang précédent.
 >
@@ -72,12 +72,12 @@ tags:
 > [!exemple] Exemple
 > Voici les cinq premiers termes de la suite $(v_n)$ :
 >
-> ![[notationsuite.png]]
+> ![[notationsuite.png|400]]
 
 > [!exercice] Exercice 1
 > Voici les cinq premiers termes de la suite nommée $u$.
 >
-> ![[suite2.png|500]]
+> ![[suite2.png|350]]
 >
 > 1. Donner la notation de la suite $u$
 > 2. Quelle est la valeur de $u_3$ ?
@@ -87,7 +87,7 @@ tags:
 > [!definition] Définition — Suite arithmétique
 > Dans une suite arithmétique, on passe d'un terme au suivant en additionnant toujours le même nombre $r$ que l'on appelle raison.
 >
-> ![[schemaarithm.png]]
+> ![[schemaarithm.png|400]]
 >
 > On a donc :
 >

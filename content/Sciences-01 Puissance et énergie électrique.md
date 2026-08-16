@@ -76,7 +76,7 @@ Voici le schéma électrique correspondant à cette situation :
 >
 > 1. Compléter le schéma suivant avec les symboles des appareils de mesure appropriés.
 >
-> ![[elec-tp1.png]]
+> ![[elec-tp1.png|400]]
 >
 > 2. À l'aide du matériel fourni, réaliser le montage ci-dessous. **Appeler votre professeur avant de mettre le circuit sous tension**.
 > 3. On appelle puissance, notée $P$, le produit de la tension $U$ (en Volt) et de l'intensité $I$ (en ampères). $$P = U \times I$$ L'unité de la puissance est le Watt ($W$). Déterminer la puissance de la résistance.
@@ -173,7 +173,7 @@ Voici le schéma électrique correspondant à cette situation :
 > 4. Le disjoncteur de calibre 16 A va-t-il déclencher ? Justifier.
 > 5. Un menuisier branche en plus un chauffage d'appoint de $460\,\text{W}$. Le disjoncteur déclenche-t-il maintenant ? Justifier par le calcul.
 > 6. L'atelier fonctionne 6h par jour, 5 jours par semaine (sans le chauffage d'appoint). Calculer l'énergie consommée en une semaine, en kWh.
-> 7. Sachant que le prix du kWh est de $0,1711\,€$, calculer le coût hebdomadaire de fonctionnement de l'atelier.
+> 7. Sachant que le prix du kWh est de $0,1711\,\text{€}$, calculer le coût hebdomadaire de fonctionnement de l'atelier.
 
 > [!correction] Correction
 > 1. Scie : $P=230\times6=1380\,\text{W}$. Aspirateur : $P=230\times4=920\,\text{W}$.
@@ -182,10 +182,10 @@ Voici le schéma électrique correspondant à cette situation :
 > 4. $15\,\text{A} < 16\,\text{A}$ : le disjoncteur ne déclenche pas (marge faible, seulement $1\,\text{A}$).
 > 5. Chauffage : $I=\dfrac{460}{230}=2\,\text{A}$. Nouvelle intensité totale : $15+2=17\,\text{A} > 16\,\text{A}$ : le disjoncteur déclenche.
 > 6. $P_{totale}=3,45\,\text{kW}$. Temps hebdomadaire : $6\times5=30\,\text{h}$. $E=3,45\times30=103,5\,\text{kWh}$.
-> 7. Coût $=103,5\times0,1711\approx17,71\,€$.
+> 7. Coût $=103,5\times0,1711\approx17,71\,\text{€}$.
 
 > [!exercice] Problème de synthèse 2 — Ampoule incandescente ou LED ?
-> On souhaite remplacer une ampoule incandescente par une ampoule LED équivalente. L'ampoule est utilisée en moyenne $4\,\text{h}$ par jour, $365$ jours par an. Le prix du kWh est de $0,1711\,€$.
+> On souhaite remplacer une ampoule incandescente par une ampoule LED équivalente. L'ampoule est utilisée en moyenne $4\,\text{h}$ par jour, $365$ jours par an. Le prix du kWh est de $0,1711\,\text{€}$.
 >
 > | | Ampoule incandescente | Ampoule LED |
 > |---|---|---|
@@ -200,8 +200,8 @@ Voici le schéma électrique correspondant à cette situation :
 
 > [!correction] Correction
 > 1. Incandescente : $E=60\times15\,000=900\,000\,\text{Wh}=900\,\text{kWh}$. LED : $E=9\times15\,000=135\,000\,\text{Wh}=135\,\text{kWh}$.
-> 2. Incandescente : $900\times0,1711\approx153,99\,€$. LED : $135\times0,1711\approx23,10\,€$.
-> 3. $\dfrac{15\,000}{1000}=15$ ampoules. Coût d'achat : $15\times1=15\,€$.
-> 4. Incandescente : $153,99+15=168,99\,€$. LED : $23,10+6=29,10\,€$. La LED est nettement plus économique (environ $140\,€$ d'économie sur la durée).
+> 2. Incandescente : $900\times0,1711\approx153,99\,\text{€}$. LED : $135\times0,1711\approx23,10\,\text{€}$.
+> 3. $\dfrac{15\,000}{1000}=15$ ampoules. Coût d'achat : $15\times1=15\,\text{€}$.
+> 4. Incandescente : $153,99+15=168,99\,\text{€}$. LED : $23,10+6=29,10\,\text{€}$. La LED est nettement plus économique (environ $140\,\text{€}$ d'économie sur la durée).
 
 **Tester vos connaissances :** [Quiz en ligne (Quiziniere)](https://www.quiziniere.com/diffusions/6K5PEM)

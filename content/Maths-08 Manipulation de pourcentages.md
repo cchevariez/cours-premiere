@@ -85,4 +85,4 @@ On peut ainsi grâce à la valeur numérique du coefficient déterminer la natur
 
 ## On mélange le tout
 
-![[pourcentab.pdf]]
+![[pourcentab.png]]
