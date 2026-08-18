@@ -29,6 +29,11 @@ tags:
 > 1. $-3x-4=14 \Rightarrow -3x = 18 \Rightarrow x = -6$.
 > 2. Ce programme affiche tous les nombres pairs strictement inférieurs à 50.
 
+> [!activite] Tester en ligne
+> Vérifiez votre réponse en exécutant le programme : [console.basthon.fr](https://console.basthon.fr/?script=eNrLVLBVMOIqz8jMSVXIVLBRMDWw4lIAgoKizLwSjUxNMCcTqChTQVvBCAALYArH)
+>
+> <iframe src="https://console.basthon.fr/?script=eNrLVLBVMOIqz8jMSVXIVLBRMDWw4lIAgoKizLwSjUxNMCcTqChTQVvBCAALYArH" width="800" height="600" style="border:1px solid #e4e4e4;border-radius: 4px;" frameborder="0"></iframe>
+
 ## S'approprier
 
 > [!activite] Activité
@@ -162,6 +167,11 @@ tags:
 > 3. 3 fois.
 > 4. $15$.
 
+> [!activite] Tester en ligne
+> Vérifiez votre réponse en exécutant le programme : [console.basthon.fr](https://console.basthon.fr/?script=eNrLVLBVMOUqz8jMSVXIVLBRMDKw4lIAgoKizLwSjUxNMCcTqChTQVvBFAALhwrK)
+>
+> <iframe src="https://console.basthon.fr/?script=eNrLVLBVMOUqz8jMSVXIVLBRMDKw4lIAgoKizLwSjUxNMCcTqChTQVvBFAALhwrK" width="800" height="600" style="border:1px solid #e4e4e4;border-radius: 4px;" frameborder="0"></iframe>
+
 ## Applications
 
 > [!exercice] Exercice 5
@@ -191,6 +201,11 @@ tags:
 >
 > print("limite atteinte", terme_courant, n)
 > ```
+
+> [!activite] Tester en ligne
+> Exécutez le programme pour observer son comportement : [console.basthon.fr](https://console.basthon.fr/?script=eNrFkU0KwkAMhfc5RWg3ikVaxY3YlQcpgwYd6PyQRry-mdbNLKxQF2aVvOTB-0iJZ8LI4cbGOe2IHQleCbfzBVB-O_nkXGxkY4fgscUDRCZniTtJeVVpdtBbZyX1-7qGdNUAjOvuEh5svKiU2eAfDM-77QnzXCecsh8BtSJbL6vijeMV2IiQalRUubFCvx4t5bIsP1pziE2L03_GnU-zPiCHmQN5ATtzmw4)
+>
+> <iframe src="https://console.basthon.fr/?script=eNrFkU0KwkAMhfc5RWg3ikVaxY3YlQcpgwYd6PyQRry-mdbNLKxQF2aVvOTB-0iJZ8LI4cbGOe2IHQleCbfzBVB-O_nkXGxkY4fgscUDRCZniTtJeVVpdtBbZyX1-7qGdNUAjOvuEh5svKiU2eAfDM-77QnzXCecsh8BtSJbL6vijeMV2IiQalRUubFCvx4t5bIsP1pziE2L03_GnU-zPiCHmQN5ATtzmw4" width="800" height="600" style="border:1px solid #e4e4e4;border-radius: 4px;" frameborder="0"></iframe>
 
 > [!aide] Aide
 > Faire un tableau à 2 colonnes. Dans la première colonne, noter les valeurs prises par `n`. Dans la seconde, noter les valeurs prises par `terme_courant`.
@@ -232,6 +247,11 @@ tags:
 >
 > print("limite atteinte", terme_courant, n)
 > ```
+
+> [!activite] Tester en ligne
+> Adaptez le code ci-dessus directement en ligne et exécutez-le : [console.basthon.fr](https://console.basthon.fr/?script=eNp9jkEOg0AIRfecgriqqQtt46apZzETQ1ISBw2l6fVlpt2wkRV8-O-jid-b4IQj7EqZSWcjzeTKcIOVM1vp730PAHUzL9tHk5irwQGFMgB8X7wSxtMn_kgPQK9dWezS_OHi8cmMXKOmi8YOpa2WiLtOqPXvupMye3DEniEPmUFQcw)
+>
+> <iframe src="https://console.basthon.fr/?script=eNp9jkEOg0AIRfecgriqqQtt46apZzETQ1ISBw2l6fVlpt2wkRV8-O-jid-b4IQj7EqZSWcjzeTKcIOVM1vp730PAHUzL9tHk5irwQGFMgB8X7wSxtMn_kgPQK9dWezS_OHi8cmMXKOmi8YOpa2WiLtOqPXvupMye3DEniEPmUFQcw" width="800" height="600" style="border:1px solid #e4e4e4;border-radius: 4px;" frameborder="0"></iframe>
 
 > [!exercice] Exercice 6
 > L'entreprise « Condial » spécialisée dans le conditionnement des produits alimentaires envisage de développer sa production. Au mois de décembre 2013, cette entreprise fabrique 45 000 unités pour le conditionnement de boissons. Elle prévoit une augmentation mensuelle de 5 000 unités les mois suivants. On souhaite savoir au bout de combien de mois la production initiale doublera.
