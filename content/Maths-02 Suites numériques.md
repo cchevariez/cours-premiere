@@ -96,7 +96,7 @@ tags:
 >
 > On a donc :
 >
-> ![[rec.png]]
+> $u_{n+1} = u_n +r$
 
 > [!rituel] Rituel
 > Déterminer les coordonnées du point d'intersection des droites suivantes :

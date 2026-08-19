@@ -25,7 +25,7 @@ Les États-Unis sont encore de loin la première puissance économique mondiale.
 
 **Problématique :** Cette prévision est-elle exacte ?
 
-![[usachina.jpg]]
+![[usachina.jpg|600]]
 
 Pour répondre à cette question vous disposez des données suivantes (source : Banque Mondiale). Les PIB sont données en billions (millier de milliards) de dollars.
 
