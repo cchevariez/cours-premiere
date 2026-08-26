@@ -48,11 +48,13 @@ tags:
 >
 > 1. Déterminer le nombre de places au troisième et au quatrième rang.
 > 2. Déterminer le nombre de places au 23ᵉ rang. Décrire la méthode de calcul que vous avez utilisée.
-> - [Vidéo — aide méthode](https://youtu.be/_gLvvida2ZE)
+>
+> <iframe src="https://www.youtube-nocookie.com/embed/_gLvvida2ZE" title="Vidéo — aide méthode" width="560" height="315" style="max-width:100%;height:auto;aspect-ratio:16/9;border:0;border-radius:8px;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
 >
 > 3. À votre avis, quelle critique peut émettre le service de billetterie à propos de votre méthode ?
 > 4. Pourrait-on mettre en place une formule, nous permettant de trouver directement le nombre de places au 23ᵉ rang ?
-> - [Vidéo — aide méthode (suite)](https://youtu.be/uqCZsALbdbM)
+>
+> <iframe src="https://www.youtube-nocookie.com/embed/uqCZsALbdbM" title="Vidéo — aide méthode (suite)" width="560" height="315" style="max-width:100%;height:auto;aspect-ratio:16/9;border:0;border-radius:8px;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
 >
 > 5. Déterminer le nombre de places au 12ᵉ et au 19ᵉ rang.
 > 6. Déterminer le nombre de places au $n$ᵉ rang. En quoi la formule obtenue peut-elle répondre à la problématique ?

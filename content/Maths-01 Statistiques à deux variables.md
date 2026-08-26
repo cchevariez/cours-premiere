@@ -87,6 +87,12 @@ Pour répondre à cette question vous disposez des données suivantes (source : 
 >
 > 6. Mettre en œuvre votre méthode afin de répondre à la problématique.
 
+> [!exemple] Exemple animé — une méthode rigoureuse
+> Une fois la méthode des moindres carrés vue dans la partie « Réaliser », on peut répondre proprement à la problématique : nuage de points, droite de régression de chaque pays (avec son équation et son $R^2$), puis point d'intersection des deux droites.
+> ![[regression_pib_chine_usa.mp4]]
+>
+> D'après ce modèle linéaire, les deux droites ne se croisent que vers 2108 : la prévision de 2032 annoncée par *L'Expansion* est très optimiste (le PIB chinois stagne d'ailleurs depuis 2021).
+
 > [!rituel] Rituel
 > Résoudre les équations suivantes :
 > 1. $4x=5$.
@@ -146,8 +152,10 @@ L'équation de la droite est $y=5,57x-8,76$
 
 > [!remarque] Remarque
 > Un tutoriel sur la régression linéaire est disponible dans deux vidéos très courtes (moins d'une minute).
-> - [Vidéo 1 — régression linéaire](https://www.youtube.com/watch?v=uPIjhsm6JsE)
-> - [Vidéo 2 — régression linéaire](https://www.youtube.com/watch?v=iX7Kg5FkkX8)
+>
+> <iframe src="https://www.youtube-nocookie.com/embed/uPIjhsm6JsE" title="Vidéo 1 — régression linéaire" width="560" height="315" style="max-width:100%;height:auto;aspect-ratio:16/9;border:0;border-radius:8px;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
+>
+> <iframe src="https://www.youtube-nocookie.com/embed/iX7Kg5FkkX8" title="Vidéo 2 — régression linéaire" width="560" height="315" style="max-width:100%;height:auto;aspect-ratio:16/9;border:0;border-radius:8px;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
 
 > [!exercice] Exercice 2
 > Vous disposez du tableau de données suivant :
@@ -346,12 +354,14 @@ Les prévisions de météo France sont de plus en plus précises. En effet, plus
 > Nuage 2 : ![[nuage2.png|300]]
 > Nuage 3 : ![[nuage3.png|300]]
 
+> [!exemple] Exemple animé — quand l'ajustement affine n'est pas pertinent
+> On reprend la même question, mais avec les données depuis 1980. Sur 45 ans, le nuage chinois est nettement **courbe** (quasi nul jusqu'en 1995, puis croissance rapide) : la droite de régression le représente mal. Sa pente devient même plus faible que celle des États-Unis.
+> ![[regression_pib_chine_usa_1980.mp4]]
+>
+> Résultat : d'après ce modèle linéaire, le PIB chinois ne rattraperait **jamais** celui des États-Unis. Comme l'allure du nuage n'est pas celle d'une droite, l'ajustement affine n'est pas adapté ici — c'est exactement le genre de critique attendue dans la partie « valider ».
+
 > [!definition] Définition — Corrélation
 > En mathématiques, on dit que deux séries sont corrélées si leur coefficient de détermination est proche de 1.
-
-> [!remarque] Remarque
-> Un tutoriel est disponible sur lms.zone pour vous aider à déterminer la valeur de $R^2$.
-> - [Vidéo — déterminer $R^2$](https://youtu.be/b5KSM5Xr-2c)
 
 > [!rituel] Rituel
 > Mettre le problème en équation puis la résoudre pour retrouver le prix initial.
