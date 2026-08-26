@@ -57,7 +57,7 @@ Pour mesurer la tension et l'intensité, on utilise un multimètre. Comme son no
 
 Pour mesurer une tension, on se branche en dérivation du dipôle dont on veut mesurer la tension. Voici une image d'illustration :
 
-![[mesure-tension.png]]
+![[mesure-tension.png|500]]
 
 Voici le schéma électrique correspondant à cette situation :
 
@@ -65,7 +65,7 @@ Voici le schéma électrique correspondant à cette situation :
 
 Pour mesurer une intensité, on branche le multimètre en série. Voici une image d'illustration :
 
-![[mesure-intensite.png]]
+![[mesure-intensite.png|500]]
 
 Voici le schéma électrique correspondant à cette situation :
 
@@ -107,9 +107,9 @@ Voici le schéma électrique correspondant à cette situation :
 > [!exercice] Exercice 4
 > Voici l'installation électrique d'un salon de coiffure. Le Consuel (COmité National pour la Sécurité des Usagers de l'ELectricité) doit passer afin de vérifier l'installation. Vous disposez du tableau de la norme NFC, que toutes les installations doivent respecter, ainsi qu'un schéma du tableau divisionnaire du salon. À l'aide de ces documents, indiquer les changements nécessaires à effectuer afin que le Consuel valide l'installation. Chaque modification à effectuer doit être soigneusement justifiée.
 >
-> ![[norme.png]]
+> ![[norme.png|400]]
 >
-> ![[tableaudiv.png]]
+> ![[tableaudiv.png|400]]
 
 ## Énergie
 
