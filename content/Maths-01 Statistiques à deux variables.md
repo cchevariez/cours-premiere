@@ -6,6 +6,7 @@ tags:
 
 # Statistiques à deux variables
 
+
 ## Activité d'introduction
 
 > [!rituel] Rituel
